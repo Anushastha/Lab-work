@@ -1,0 +1,8 @@
+#1)convert seconds to day, hours, minutes and seconds(user input lera)
+s = int(input("enter the value for seconds:"))
+day1=(((s/60)/60)/24)
+print(f"total day for given seconds:{day1}")
+hour1=((s/60)/60)
+print(f"total hours for given seconds:{hour1}")
+minute1=(s/60)
+print(f"total minutes for given seconds:{minute1}")
