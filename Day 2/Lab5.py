@@ -14,3 +14,9 @@ print("You'll need at least",(B),"desks for the second class.")
 c=int(input("Enter the number of students in the third class= "))
 C=c//2
 print("You'll need at least",(C),"desks for the third class.")
+remaining_chairsA=a%2
+print("remaining chairs in class A",(remaining_chairsA))
+remaining_chairsB=b%2
+print("remaining chairs in class B",(remaining_chairsB))
+remaining_chairsC=c%2
+print("remaining chairs in class C",(remaining_chairsC))
